@@ -2776,3 +2776,25 @@ html{
 .card:hover{
   transform: scale(1.02);
 }
+#submit1{
+  color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo{
+      height: 50px;
+      width: 150px;
+      position: relative;
+      top: -23px;
+      left: -50px;
+    }
+    .mean-container a.meanmenu-reveal{
+      position: absolute;
+      top: -30px;
+    }
+}
+.logo{
+  height: 70px;
+  width: 270px;
+  
+}
